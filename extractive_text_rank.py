@@ -1,5 +1,5 @@
 '''
-Text Rank
+TextRank
 
 see also:
 "An Introduction to Text Summarization using the TextRank Algorithm (with Python implementation)":
