@@ -1,8 +1,11 @@
 # text-summarization
 Create summaries of text documents.
 
+### Extractive (unsupervised)
 - extractive_simple.py    
   Get most relevant sentences with tf-idf metrics
+- extractive_text_rank.py
+  Text Rank implementation (based on word vectors)
 
 
 
