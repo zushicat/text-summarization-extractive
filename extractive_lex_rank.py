@@ -101,7 +101,7 @@ corpus: List[str] = [" ".join(cleaned_sentences)]  # all sentences as one docume
 sentence_vectors = VECTORIZER.fit_transform(cleaned_sentences)  # see top comment: sentences vs. corpus of one doc
 
 # ***
-# initialize similarity matrix with dimension (n, n) (n = number of senteces)
+# initialize similarity matrix with dimension (n, n) (n = number of sentences)
 similarity_matrix = np.zeros([num_sentences, num_sentences])
 
 # ***
