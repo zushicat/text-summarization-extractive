@@ -1,0 +1,13 @@
+# Python 3
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+Pipfile.lock
+
+found_examples
+data/glove.6B.100d.txt
