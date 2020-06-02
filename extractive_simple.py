@@ -32,7 +32,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 from nltk.tokenize import RegexpTokenizer
 
-from sklearn.feature_extraction.text import  TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 import warnings
 warnings.filterwarnings("ignore", category=RuntimeWarning) 
