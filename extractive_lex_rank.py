@@ -88,8 +88,6 @@ num_sentences = len(sentences)
 # ***
 # get cleaned version of each sentence
 cleaned_sentences: List[str] = [" ".join(_tokenize_text(s)) for s in sentences]  # list of sentences
-corpus: List[str] = [" ".join(cleaned_sentences)]  # all sentences as one document
-
 
 # ****************************************************
 #
@@ -98,7 +96,7 @@ corpus: List[str] = [" ".join(cleaned_sentences)]  # all sentences as one docume
 # ****************************************************
 # ***
 # fit vectorizer
-sentence_vectors = VECTORIZER.fit_transform(cleaned_sentences)  # see top comment: sentences vs. corpus of one doc
+sentence_vectors = VECTORIZER.fit_transform(cleaned_sentences)  # LexRank needs > 1 docs (!= corpus with 1 doc)
 
 # ***
 # initialize similarity matrix with dimension (n, n) (n = number of sentences)
