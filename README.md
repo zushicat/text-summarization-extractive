@@ -6,7 +6,7 @@ Create summaries of text documents.
   Get most relevant sentences with tf-idf metrics
 - extractive_text_rank.py    
   TextRank implementation (based on word vectors)
-- extractive_lex_rank.py
+- extractive_lex_rank.py    
   LexRank implementation (cosine similarity on tf-idf metrics)
 
 
