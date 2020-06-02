@@ -4,8 +4,10 @@ Create summaries of text documents.
 ### Extractive (unsupervised)
 - extractive_simple.py    
   Get most relevant sentences with tf-idf metrics
-- extractive_text_rank.py
-  Text Rank implementation (based on word vectors)
+- extractive_text_rank.py    
+  TextRank implementation (based on word vectors)
+- extractive_lex_rank.py
+  LexRank implementation (cosine similarity on tf-idf metrics)
 
 
 
@@ -29,5 +31,8 @@ https://nlp.stanford.edu/projects/glove/
 ### Extractive
 - Gensim Summarize
     - "Tutorial: automatic summarization using Gensim": https://rare-technologies.com/text-summarization-with-gensim/
-- Text Rank
+- TextRank
     - "An Introduction to Text Summarization using the TextRank Algorithm (with Python implementation)": https://www.analyticsvidhya.com/blog/2018/11/introduction-text-summarization-textrank-python/
+- LexRank
+    - "LexRank method for Text Summarization": https://iq.opengenus.org/lexrank-text-summarization/
+    - "LexRank: Graph-based Lexical Centrality as Salience in Text Summarization": https://www.aaai.org/Papers/JAIR/Vol22/JAIR-2214.pdf
