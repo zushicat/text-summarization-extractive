@@ -18,10 +18,8 @@ https://nlp.stanford.edu/projects/glove/
 ## Further Reading
 ### General
 - "Wikipedia: Automatic summarization": https://en.wikipedia.org/wiki/Automatic_summarization
-- "Automatic Text Summarization with Machine Learning — An overview": https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning-an-overview-68ded5717a25
 - "A Quick Introduction to Text Summarization in Machine Learning": https://towardsdatascience.com/a-quick-introduction-to-text-summarization-in-machine-learning-3d27ccf18a9f
 - "An Overview of Summarization": https://blog.agolo.com/an-overview-of-summarization-551499a144d5
-- "A Gentle Introduction to Text Summarization in Machine Learning": https://blog.floydhub.com/gentle-introduction-to-text-summarization-in-machine-learning/
 - "Text Summarization in Python: Extractive vs. Abstractive techniques revisited": https://rare-technologies.com/text-summarization-in-python-extractive-vs-abstractive-techniques-revisited/
 
 ### Packages
@@ -36,3 +34,8 @@ https://nlp.stanford.edu/projects/glove/
 - LexRank
     - "LexRank method for Text Summarization": https://iq.opengenus.org/lexrank-text-summarization/
     - "LexRank: Graph-based Lexical Centrality as Salience in Text Summarization": https://www.aaai.org/Papers/JAIR/Vol22/JAIR-2214.pdf
+
+### Abstractive
+- "Automatic Text Summarization with Machine Learning — An overview": https://medium.com/luisfredgs/automatic-text-summarization-with-machine-learning-an-overview-68ded5717a25
+- "A Gentle Introduction to Text Summarization in Machine Learning": https://blog.floydhub.com/gentle-introduction-to-text-summarization-in-machine-learning/
+- "Comprehensive Guide to Text Summarization using Deep Learning in Python": https://www.analyticsvidhya.com/blog/2019/06/comprehensive-guide-text-summarization-using-deep-learning-python/
