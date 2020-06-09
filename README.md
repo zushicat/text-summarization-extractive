@@ -1,4 +1,4 @@
-# text-summarization
+# text-summarization-extractive
 Create summaries of text documents.
 
 ### Extractive (unsupervised)
